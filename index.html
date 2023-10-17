@@ -575,10 +575,14 @@
             </li>
           </ul>
         </div>
+
+        <!-- Footer Button -->
+
         <div class="footer-bottom">
         <form class="footer-form">
           <p class="footer-btn-text">Subscribe</p>
-          <input type="email" class="footer-input" placeholder="E-mail">
+          <label for="footer-name" class="label-footer"></label>
+          <input type="email" name="footer-name" class="footer-input" placeholder="E-mail">
            
           <button type="submit" class="footer-submit-btn"><svg class="footer-bottom-svg">
             <use href="./images/icons.svg#icon-Frame-3" width="24" height="24"></use>
@@ -589,6 +593,7 @@
       </div>
     </footer>
     <div class="backdrop">
+      <!-- Modal -->
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8" ;>
@@ -607,7 +612,7 @@
                 id="user-name"
                 required
               />
-              <svg class="icon-person" height="18" width="18">
+              <svg class="icon-person" height="24" width="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -640,7 +645,7 @@
               </svg>
             </div>
             <div class="modal-field">
-              <label for="user-text" class="modal-label">Comment</label>
+              <label for="user-comment" class="modal-label">Comment</label>
               <textarea
                 name="user-text"
                 id="user-text"

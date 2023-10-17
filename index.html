@@ -510,7 +510,7 @@
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="container-footer div-footer">
+      <div class="container div-footer">
         <div class="footer-wrap">
           <a href="./index.html" class="logofooter"
             >Web<span class="footerspan">Studio</span></a
@@ -574,6 +574,17 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-bottom">
+        <form class="footer-form">
+          <p class="footer-btn-text">Subscribe</p>
+          <input type="email" class="footer-input" placeholder="E-mail">
+           
+          <button type="submit" class="footer-submit-btn"><svg class="footer-bottom-svg">
+            <use href="./images/icons.svg#icon-Frame-3" width="24" height="24"></use>
+          </svg>Subscribe</button>
+          
+        </form>  
         </div>
       </div>
     </footer>
@@ -641,12 +652,15 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              class="checkbox-input"
+              class="checkbox-input visually-hidden"
               name="modal-check"
               id="modal-check"
             />
             <label for="modal-check" class="user-checkbox"></label>
-              <span class="checkbox-span"></span>I accept the terms and conditions of the
+              <span class="checkbox-span">
+                <svg class="checkbox-img" height="8" width="10" >
+                <use href="./images/icons.svg#icon-icons8-"></use>
+              </svg></span>I accept the terms and conditions of the
               <a href="">Privacy Policy</a></label
             >
           </div>
